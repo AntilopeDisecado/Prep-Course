@@ -7,8 +7,10 @@ function obtenerMayor(x, y) {
   // Tu código: 
   if(x > y) {
     return x;
-  }
+  } 
+  else {
   return y;
+  }
  } 
 
 function mayoriaDeEdad(edad) {
@@ -31,10 +33,10 @@ function conection(status) {
   //Devolver el estado de conexión de usuario en cada uno de los casos.
   if(status === 1) {
     return "Online";
-  }
- else if (status === 2) {
+  } 
+  else if (status === 2) {
    return "Away"; 
-  }
+  } 
   else {
   return "Offline";
   }
@@ -55,8 +57,9 @@ function saludo(idioma) {
   }
   else if(idioma === "ingles") {
     return "Hello!"
-  }
+  } else {
   return "Hola!"
+  }
 }
 
 function colors(color) {
@@ -120,7 +123,7 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if(numero % 15 === 0) {
+  if(numero % 3 === 0 && numero % 5 === 0) {
   return 'fizzbuzz';
   }
   if(numero % 3 === 0) {

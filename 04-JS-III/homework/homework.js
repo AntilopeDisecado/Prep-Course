@@ -38,7 +38,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array.push (elemento);
+  array.push(elemento);
   return array;
 }
 
@@ -92,7 +92,7 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
-  return agregarNumeros(resultadosTest) / resultadosTest.length;
+  return agregarNumeros (resultadosTest) / resultadosTest.length;
 }
 
 
@@ -146,10 +146,8 @@ function diaDeLaSemana(numeroDeDia) {
   }
   return "Es dia Laboral"
 } 
+
       
-
-
-
 function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
